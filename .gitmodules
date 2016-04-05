@@ -1,3 +1,6 @@
 [submodule "e2198_Ca_imaging"]
 	path = e2198_Ca_imaging
 	url = git@github.com:seung-lab/e2198_Ca_imaging.git
+[submodule "e2198_reconstruction"]
+	path = e2198_reconstruction
+	url = git@github.com:seung-lab/e2198_reconstruction.git
