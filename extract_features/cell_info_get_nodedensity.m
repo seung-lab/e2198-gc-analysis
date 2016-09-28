@@ -10,7 +10,7 @@ function cell_info = cell_info_get_nodedensity(cell_info)
         if isempty(numnodes(cell))
             cell_info([cell_info.cell_id]==cell).node_density = 0;
         else
-            cell_info([cell_info.cell_id]==cell).node_density = numnodes(cell)/(area_hull{cell}*0.066*0.066);
+            cell_info([cell_info.cell_id]==cell).node_density = numnodes(cell)/(area_hull(cell));
         end
     end
  

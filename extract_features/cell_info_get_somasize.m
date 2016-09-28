@@ -9,7 +9,7 @@ function cell_info = cell_info_get_somasize(cell_info)
         if isempty(somasize(cell))
             cell_info([cell_info.cell_id]==cell).soma_size = 0;
         else
-            cell_info([cell_info.cell_id]==cell).soma_size = somasize(cell)*165*165*230/10^9;
+            cell_info([cell_info.cell_id]==cell).soma_size = somasize(cell);
         end
     end
  
