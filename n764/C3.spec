@@ -1,0 +1,17 @@
+[C3]
+size=10
+activation=logistic
+act_params=
+filter=max
+filter_size=1,1,1
+filter_stride=1,1,1
+init_type=zero
+init_params=
+bias=0
+eta=0.01
+mom=0
+wc=0
+fft=0
+dropout=0
+maxout=0
+nonsparse=0
