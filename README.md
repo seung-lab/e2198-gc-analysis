@@ -23,6 +23,8 @@ Raw calcium imaging data, and all analyses pertaining to this data are in this s
 
 Some earlier hierarchical clustering efforts are also in this folder.
 
+Relations amongst the EM data orientation, the visual stimuli directions, and the final polar coordinates are documented in this submodule.
+
 Routines that carry special interests in this submodule include:
 * Contact analysis
 
@@ -49,7 +51,7 @@ Skeletized RGC dendritic arbors.
 ## Code for specific analyses, by directory name:
 
 ### arbor_asymmetry
-Code for quantifying the asymmetry of dendritic arbors. Earlier code in Matlab computing some of the same values `e2198_Ca_imaging`
+Code for quantifying the asymmetry of dendritic arbors.
 
 ### n764
 Convolutional network parameters. This is the network for segmenting somata for the soma size analyeses.
