@@ -9,7 +9,7 @@ When appropriate, additional documentations are available as the README.md file 
 
 
 ## EM data, cell reconstructions / `e2198_reconstruction`
-This submodule contains many of the initial steps, and more general facilities that are needed by almost all subsequent analyses. Especially code to create the initial cell_info structure is availble here. (see for additional details)
+This submodule contains many of the initial steps, and more general facilities that are needed by almost all subsequent analyses. Especially code to create the initial cell_info structure is availble here. (see README in the submodule for additional details)
 
 Importantly, the final cell type assignments as a result of the hierarchical clustering are in the cell_info_typedef_gc.m file contained in this repository.
 
@@ -35,7 +35,12 @@ TO BE UPLOADED.
 
 ### cell_features
 Computed features for each cell. All features used for hierarchical clustering are here.
-Note mapping of cell IDs and their assigned cell types are available in `e2198_reconstruction/cell_info_typedef_gc.m`.
+
+The cell_info structure array in 'cell_info.mat' is an aggregate of features from all
+ other files, and for ganglion cells also includes the assigned cell type. (For more
+ details on the cell_info structure, see the `e2198_reconstruction` submodule).
+
+Note mapping of cell IDs and their assigned cell types are also available in `e2198_reconstruction/cell_info_typedef_gc.m`. 
 
 ### ganglion_skeletons
 Skeletized RGC dendritic arbors.
@@ -44,7 +49,7 @@ Skeletized RGC dendritic arbors.
 ## Code for specific analyses, by directory name:
 
 ### arbor_asymmetry
-Code for quantifying the asymmetry of dendritic arbors. Earlier versions of the The same 
+Code for quantifying the asymmetry of dendritic arbors. Earlier code in Matlab computing some of the same values `e2198_Ca_imaging`
 
 ### n764
 Convolutional network parameters. This is the network for segmenting somata for the soma size analyeses.
