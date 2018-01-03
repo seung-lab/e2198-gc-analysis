@@ -35,8 +35,8 @@ TO BE UPLOADED.
 
 ## Data of special interests, by directory name:
 
-### cell_features
-Computed features for each cell. All features used for hierarchical clustering are here.
+### Data
+Computed features for each cell. All features used for hierarchical clustering are included here.
 
 The cell_info structure array in 'cell_info.mat' is an aggregate of features from all
  other files, and for ganglion cells also includes the assigned cell type. (For more
@@ -44,11 +44,20 @@ The cell_info structure array in 'cell_info.mat' is an aggregate of features fro
 
 Note mapping of cell IDs and their assigned cell types are also available in `e2198_reconstruction/cell_info_typedef_gc.m`. 
 
-### ganglion_skeletons
-Skeletized RGC dendritic arbors.
+### skeletons_GC
+Skeletons of GC dendritic arbors.
 
 
 ## Code for specific analyses, by directory name:
+
+### analysis
+All the MATLAB codes and data used for analysis. Run MATLAB codes within this folder to avoid dependency issues.
+
+### arbor_segregation
+Code for quantifying segregation of distribution of cell features. Run it within the folder "analysis" to avoid dependency issues.
+
+### density conservation
+Code used to test "density conservation" hypothesis. Run it within the folder "analysis" to avoid dependency issues.
 
 ### arbor_asymmetry
 Code for quantifying the asymmetry of dendritic arbors.
@@ -57,9 +66,6 @@ Code for quantifying the asymmetry of dendritic arbors.
 Convolutional network parameters. This is the network for segmenting somata for the soma size analyeses.
 This was also the network used to generate the original segmentation used in Eyewire.org
 
-### plotting
-R code used to create some figures in the manuscript.
-
 ### skeletonization	
 Code for automated skeletonization.
 
@@ -67,3 +73,7 @@ Code for automated skeletonization.
 Code to compute soma size.
 
 
+## Code for plotting figures
+
+### plotting
+Code used to create figures in the manuscript. For MATLAB codes, run it within the folder "analysis" to avoid dependency issues.
