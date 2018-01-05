@@ -51,7 +51,7 @@ Skeletons of GC dendritic arbors.
 ## Code for specific analyses, by directory name:
 
 ### analysis
-All the MATLAB codes and data used for analysis. Run MATLAB codes within this folder to avoid dependency issues.
+MATLAB codes and data used for analysis. Run MATLAB codes within this folder to avoid dependency issues.
 
 ### arbor_segregation
 Code for quantifying segregation of distribution of cell features. Run it within the folder "analysis" to avoid dependency issues.
