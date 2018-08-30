@@ -47,20 +47,20 @@ Note mapping of cell IDs and their assigned cell types are also available in `e2
 ### skeletons_GC
 Skeletons of GC dendritic arbors.
 
-p - Point cloud representation of cell segmentation (N x 3) [66 x 66 x 23 nm^3]
+p - Point cloud representation of cell segmentation (N_p x 3) [66 x 66 x 23 nm^3]
 
-n - Coordinates of skeleton nodes (N x 3) [66 x 66 x 23 nm^3]
+n - Coordinates of skeleton nodes (N_n x 3) [66 x 66 x 23 nm^3]
 
-e - Connectivity of skeleton nodes represented by its row index in n (ex. [1, 2] : n(1,:) --> n(2,:)) (N x 2) 
+e - Connectivity of skeleton nodes represented by its row index in n (ex. [1, 2] : n(1,:) --> n(2,:)) (N_e x 2) 
 
-bn - Coordinates of branch nodes (N x 3) [66 x 66 x 23 nm^3]
+bn - Coordinates of branch nodes (N_bn x 3) [66 x 66 x 23 nm^3]
 
-rad - Distance to the boundary from each skeleton nodes (N x 1) [arbitrary unit]
-*These values can not be converted to real unit due to anisotropy of voxel.
+rad - Distance to the boundary from each skeleton nodes (N_n x 1) [arbitrary unit]  
+*These values cannot be converted to real unit due to anisotropy of voxel.
 
-root - Coordinates of root nodes (N x 3) [66 x 66 x 23 nm^3]
+root - Coordinates of root nodes (N_rt x 3) [66 x 66 x 23 nm^3]
 
-dest - Coordinates of destination nodes (N x 3) [66 x 66 x 23 nm^3]
+dest - Coordinates of destination nodes (N_dt x 3) [66 x 66 x 23 nm^3]
 
 
 ## Code for specific analyses, by directory name:
