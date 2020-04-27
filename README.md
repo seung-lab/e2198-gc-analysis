@@ -49,7 +49,7 @@ Skeletons of GC dendritic arbors.
 
 p - Point cloud representation of cell segmentation (N_p x 3) [66 x 92 x 66 nm^3]
 
-n - Coordinates of skeleton nodes (N_n x 3) [66 x 93 x 66 nm^3]
+n - Coordinates of skeleton nodes (N_n x 3) [66 x 92 x 66 nm^3]
 
 e - Connectivity of skeleton nodes represented by its row index in n (ex. [1, 2] : n(1,:) --> n(2,:)) (N_e x 2) 
 
